@@ -91,6 +91,7 @@ body {
 #cta-container .info {
   display: flex;
   justify-content: space-between;
+  margin: 1rem 0;
 }
 .info #text {
   color: var(--primary-color);
@@ -111,8 +112,16 @@ body {
 }
 table {
   display: none;
+  margin-top: 1rem;
 }
 
+th {
+  font-weight: 400;
+  padding: 0 0.5rem;
+}
+td {
+  padding: 0 0.5rem;
+}
 #popular {
   position: relative;
 }
@@ -163,7 +172,9 @@ table {
 
 #powered {
   align-self: flex-end;
+  margin: 0.25rem 0;
   color: var(--accent-color);
+  font-style: italic;
 }
 
 .dropdown-container {
